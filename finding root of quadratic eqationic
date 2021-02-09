@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class arthematic_
+{
+	public static void main(String[] args)
+	{
+		Scanner input=new Scanner(System.in);
+		System.out.println("enter b value");
+		double b=input.nextDouble();
+		System.out.println("enter a and c values");
+		double a=input.nextDouble();
+		int c=input.nextInt();
+		double ans1=Math.sqrt((b*b)-4*a*c);
+		ans1=-b+ans1;
+		ans1=ans1/(2*a);
+		System.out.println("root of quadratic equation" + ans1 );
+	}
+}
